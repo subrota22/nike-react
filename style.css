@@ -40,3 +40,5 @@ text-transform: uppercase;
 /* animation start  */
 .bg-body:hover{transform: scale(0.8); transition: transform 1s;}
 .headButton:hover{background-color: rgb(60, 235, 8); box-shadow: 0 6px 10px lime; transition: background-color 1s , box-shadow 1s ;}
+/* about us  styles */
+.aboutTitle{font-size: 30px; font: bolder; color: #363958;}
