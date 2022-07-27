@@ -1,0 +1,42 @@
+/* google font family  */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+SA+Beginner&family=Finlandica:ital,wght@1,600&family=Gentium+Book+Plus:ital,wght@0,700;1,700&family=Open+Sans:ital,wght@0,300;1,400&family=Poppins:wght@300;500&family=Raleway:wght@200&family=Roboto&family=Roboto+Slab:wght@300&display=swap');
+
+body{font-family: 'Finlandica', sans-serif;}
+
+/* header style start from here */
+.headerTitle{
+color: #FA804C ;
+font-size: 80px;
+text-transform: uppercase;
+}
+.headerTitle2{
+    font-size: 80px;
+    color:#363958 ;
+    text-transform: uppercase;
+}
+.headButton{
+    background-color: #3D4FF3 ;
+    padding: 5px;
+    border: none;
+    margin: 3px;
+    color: white;
+    width: 200px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.headerTitle3{font-size: 56px; color: darkblue; text-transform: uppercase;font-family: 'Raleway', sans-serif; }
+/* header style end from here */
+
+/* casual shoose start from here  */
+.showImag{ background-color:  #F1F1F1;}
+.casualTitle{font-size: 45px; color: #363958; text-transform: uppercase;}
+.dollarStyle{color: #FA804C; font-size: 36px; font-family: 'Roboto';}
+.bg-body{transform: scale(0.9);}
+.subTitle{font-size: large; color: #363958;}
+.field , .empty {color: goldenrod; font-size: 17px; margin-bottom: 7px;}
+.rating{font-size: 20px; color: #363958; margin-bottom: 7px;}
+/* casual shoose end from here  */
+
+/* animation start  */
+.bg-body:hover{transform: scale(0.8); transition: transform 1s;}
+.headButton:hover{background-color: rgb(60, 235, 8); box-shadow: 0 6px 10px lime; transition: background-color 1s , box-shadow 1s ;}
