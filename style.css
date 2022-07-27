@@ -24,7 +24,8 @@ text-transform: uppercase;
     font-size: 18px;
     text-transform: uppercase;
 }
-.headerTitle3{font-size: 56px; color: darkblue; text-transform: uppercase;font-family: 'Raleway', sans-serif; }
+.headerTitle3{font-size: 56px; color: darkblue; text-transform: uppercase;font-family: 'Raleway', sans-serif;  font-weight: 800;}
+.headerTitle3:hover{-webkit-text-stroke: 2px  lime; transition: -webkit-text-stroke 1s ;}
 /* header style end from here */
 
 /* casual shoose start from here  */
@@ -38,7 +39,7 @@ text-transform: uppercase;
 /* casual shoose end from here  */
 
 /* animation start  */
-.bg-body:hover{transform: scale(0.8); transition: transform 1s;}
+.bg-body:hover , .hoveScale:hover{transform: scale(0.8); transition: transform 1s;}
 .headButton:hover{background-color: rgb(60, 235, 8); box-shadow: 0 6px 10px lime; transition: background-color 1s , box-shadow 1s ;}
 /* about us  styles */
 .aboutTitle{font-size: 30px; font: bolder; color: #363958;}
